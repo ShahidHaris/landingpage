@@ -151,14 +151,30 @@ a {
 /**     Quote section    **/
 .quote-section {
     background: #e5e7eb;
-    height: 30vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.quote-section p {
+    padding: 0 300px;
+}
 
+.quotes {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    margin-left: auto;
+    margin-top: 20px;
+    font-weight: 900;
+}
+
+/**     Call to action section    **/
 
 
 

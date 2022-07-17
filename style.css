@@ -213,6 +213,21 @@ a {
 }
 
 /**     Call to action section    **/
+.footer {
+    background: #1f2937;
+    text-align: center;
+    color: #f9faf8;
+}
+
+.footer p {
+    padding: 25px;
+}
+
+
+
+
+
+
 
 
 

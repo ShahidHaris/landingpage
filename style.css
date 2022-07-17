@@ -101,7 +101,62 @@ a {
 
 
 /**     Image gallery section    **/
+.gallery {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px;
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 80px;
+}
 
+.h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    padding: 0 100px;
+    text-align: center;
+}
+
+.cards {
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.cards p {
+    text-align: center;
+    margin-top: 10px;
+    width: 180px;
+}
+
+.cards > img {
+    border: 2px solid #3882f6;
+    border-radius: 5%;
+    width: 180px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/**     Quote section    **/
+.quote-section {
+    background: #e5e7eb;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
